@@ -14,7 +14,7 @@ before_script:
   - echo "no tests"
 
 script:
-  - docker --version # print the version for logging
+  - docker --version # print the version for logging.
   - docker build -t simple-node .
   - docker tag simple-node shahrukhx01/simple-node:latest
 
