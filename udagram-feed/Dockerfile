@@ -15,7 +15,8 @@ RUN npm install
 COPY . .
 
 # Bind the port that the image will run on
-EXPOSE 8090
+EXPOSE 8080
 
 # Define the Docker image's behavior at runtime
+CMD ["./set_env.sh"]
 CMD ["npm", "run", "dev"]
