@@ -8,4 +8,4 @@ export AWS_BUCKET=test-f70c69d8-dev
 export AWS_REGION=us-east-1
 export AWS_PROFILE=default
 export JWT_SECRET=jahdsaskjd
-export URL=http://localhost:8100
+export URL=http://localhost:4200
