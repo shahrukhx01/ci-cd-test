@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: udagram-user
-        image: shahrukhx01/udagram-user
+        image: shahrukhx01/udagram-user:latest
         ports:
         - containerPort: 80

@@ -11,6 +11,16 @@ COPY package*.json ./
 # Install dependencies
 RUN npm install
 
+ENV POSTGRES_USERNAME=postgres
+ENV POSTGRES_PASSWORD=FPnnWQvg7DDluPyDpy6s
+ENV POSTGRES_HOST=udagram.copj1fvau2as.us-east-1.rds.amazonaws.com
+ENV POSTGRES_DB=postgres
+ENV AWS_BUCKET=test-f70c69d8-dev
+ENV AWS_REGION=us-east-1
+ENV AWS_PROFILE=default
+ENV JWT_SECRET=jahdsaskjd
+ENV URL=http://localhost:4200
+
 # Copy app source
 COPY . .
 
